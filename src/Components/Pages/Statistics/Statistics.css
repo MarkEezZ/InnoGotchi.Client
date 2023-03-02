@@ -1,0 +1,101 @@
+#statistics_section {
+    background-image: url(../../../../public/assets/background_4.png);
+    gap: 8vh;
+}
+
+#statistics_section > div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#statistics_section > div > article {
+    width: 40vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 2vh;
+}
+
+#statistics_section > div > article > div {
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    justify-content: space-between;
+}
+
+#statistics_section > div > article > div > * {
+    text-align: center;
+    line-height: 5vh;
+}
+
+#statistics_section > div > article > div:nth-child(1) > h3 {
+    text-align: left;
+    height: 5vh;
+}
+
+#statistics_section > div > article > div:nth-child(2) > p {
+    width: 5vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5vh;
+}
+
+#statistics_section > div > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+#pie_chart {
+    transform: rotate(-90deg);
+}
+
+.pie_chart_h3 {
+    text-align: left;
+    line-height: 5vh;
+}
+
+.pointer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pointer p {
+    line-height: 3vh;
+}
+
+.pointer > div {
+    display: flex;
+    gap: 1vw;
+}
+
+.color_1 {
+    background-color: rgb(33, 154, 224);
+    border: 1px solid black;
+    width: 3vh;
+    height: 3vh;
+}
+
+.color_2 {
+    background-color: rgb(60, 66, 68);
+    border: 1px solid black;
+    width: 3vh;
+    height: 3vh;
+}
+
+@media screen and (max-width: 1050px) {
+    #statistics_section > div {
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 5vh;
+    }
+
+    #statistics_section > div > article > div {
+        height: 40vh;
+    }
+
+    #statistics_section > div > div {
+        margin-right: auto;
+        gap: 2vh;
+    }
+}

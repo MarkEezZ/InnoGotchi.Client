@@ -1,0 +1,18 @@
+.item {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgb(0, 0, 0);
+    height: 8vw;
+    width: 8vw;
+}
+.item:hover {
+    background-color: rgba(92, 92, 92, 0.6);
+}
+.item > img {
+    height: 5vw;
+    padding: 5%;
+}
+.no_nose {
+    color: rgb(231, 231, 231);
+    font-weight: 600;
+    font-size: 1rem;
+}

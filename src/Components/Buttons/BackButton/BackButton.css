@@ -1,0 +1,21 @@
+.back_button {
+    width: 8vh;
+    height: 6vh;
+    border: 2px dashed black;
+    background-image: url(../../../../public/assets/icons/back_arrow_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(235, 235, 235);    
+    background-size: 60%;
+    position: fixed;
+    top: 2vh;
+    left: 2vh;
+    filter: invert(1);
+    z-index: 1;
+}
+
+.back_button:hover {
+    border-width: 3px;
+    background-color: rgb(216, 216, 216);
+    background-size: 52%;  
+}

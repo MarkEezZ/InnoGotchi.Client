@@ -1,0 +1,116 @@
+.pet_body {
+    position: relative;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.pet_eyes {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 38%;
+    height: 28%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pet_nose {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12%;
+    height: 12%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pet_mouth {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 38%;
+    height: 23%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+
+.stats_bar_button {
+    width: 5vh;
+    height: 5vh;
+    right: 0;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    background-image: url(/public/assets/icons/stats_icon.png);
+    background-size: cover;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px dashed rgb(111, 0, 255);
+    filter: invert(1);
+    z-index: 1;
+    transform: translate(30%, -60%);
+    border-radius: 5vh;
+}
+.stats_bar_button:hover {
+    border-style: solid;
+    background-size: 50%;    
+}
+
+.stats_bar_wrapper {
+    position: absolute;
+    transform: translate(55%, -20%);
+}
+
+.stats_bar_wrapper > .stats_bar {
+    gap: 5px;
+}
+
+.delete_button {
+    width: 5vh;
+    height: 5vh;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: rgb(22, 22, 22);
+    background-image: url(/public/assets/icons/delete_icon.png);
+    background-size: cover;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translate(-15%, -20%);
+    border: 2px dashed rgb(255, 0, 43);
+    z-index: 1;
+    border-radius: 5vh;
+}
+.delete_button:hover {
+    border-style: solid;
+    background-size: 50%;    
+}
+
+.resurrect_button {
+    width: 5vh;
+    height: 5vh;
+    right: 0;
+    position: absolute;
+    transform: translate(15%, -20%);
+    background-color: rgb(20, 20, 20);
+    background-image: url(/public/assets/icons/ghost_icon.png);
+    background-size: cover;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px dashed rgb(111, 0, 255);
+    z-index: 1;
+    border-radius: 5vh;
+}
+.resurrect_button:hover {
+    border-style: solid;
+    background-size: 60%;    
+}

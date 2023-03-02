@@ -1,0 +1,44 @@
+.stats_bar {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.stats_bar > div {
+    display: flex;
+    gap: 1vh;
+}
+
+.stat {
+    width: 160px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    padding: 1px;
+}
+
+.fill_stat_button {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+.fill_stat_button:hover {
+    background-size: 80%;
+    border: 2px solid white;
+}
+
+.food {
+    background-image: url(../../../public/assets/icons/food_icon.png);
+}
+.drink {
+    background-image: url(../../../public/assets/icons/drink_icon.png);
+}
+.health {
+    background-image: url(../../../public/assets/icons/health_icon.png);
+}
+.mood {
+    background-image: url(../../../public/assets/icons/mood_icon.png);
+}

@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    font-family: 'Lucida Console';
+    font-size: 16px;
+}
+
+html {
+    background-color: #43db6b;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+.black_rounded_h {
+    font-weight: 600;
+    color: white;
+    padding: 10px 20px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+button {
+    border: none;
+    font-family: 'Lucida Console';
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ////// */
+
+.section_base {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-size: cover;
+    padding: 10vh 8vw;
+}
+.padd_b_base {
+    padding-bottom: 18vh;
+}
+
+.message {
+    color: rgb(199, 255, 218);
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 2vh;
+    font-size: 1.5rem;
+    font-weight: 600;
+    opacity: 0;
+}
+.message_animation {
+    animation-name: message;
+    animation-duration: 3s;
+    animation-timing-function: inherit;
+}
+@keyframes message {
+    0% {
+        opacity: 1;
+        top: 12vh;
+    }
+    40% {
+        opacity: 1;
+        top: 12vh;
+    }
+    100% {
+        opacity: 0;
+        top: 2vh;
+    }
+}

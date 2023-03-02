@@ -1,0 +1,72 @@
+#create_farm_section {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    transform: translate(-10vw, -10vh);
+}
+
+#create_farm_form {
+    width: 30%;
+    background-color: #ffffff;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    min-width: 300px;
+    padding: 3vh 2vh;
+}
+
+#create_farm_form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+#create_farm_form > div > input {
+    background-color: rgb(10, 10, 10);
+    padding: 0 20px;
+}
+
+#create_farm_form > div > input::placeholder {
+    color: rgb(165, 202, 178);
+}
+#create_farm_form > div > input:hover {
+    background-color: rgb(34, 41, 38);
+}
+#create_farm_form > div > input:focus {
+    background-color: rgb(34, 41, 38);
+}
+#create_farm_form > div > input:hover::placeholder {
+    color: rgb(194, 236, 209);
+}
+
+
+#create_farm_form input {
+    border: none;
+    outline: none;
+    height: 60px;
+    color: white;
+    font-size: 1rem;
+    font-family: "Lucida Console";
+}
+
+#create_farm_submit {
+    background-color: #005c4d;
+    font-weight: 600;
+}
+#create_farm_submit:disabled {
+    opacity: 0.4;
+}
+#create_farm_submit:disabled:hover {
+    background-color: #005c4d;
+}
+
+#create_farm_submit:hover {
+    background-color: rgb(33, 212, 152);
+}
+
+#create_farm_form > h2 {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 2vh;
+    text-align: center;
+}

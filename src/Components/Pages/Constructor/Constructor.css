@@ -1,0 +1,129 @@
+#constructor {
+    background-image: url(/public/assets/background_constructor.png);
+    gap: 5vh
+}
+
+#constructor > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 3vw;
+}
+
+#constructor > div > div {
+    width: 50%;
+}
+
+.pet_view_panel {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px dashed white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pet_view_panel > div {
+    width: 20vw;
+    height: 20vw;
+}
+
+.control_panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 3vh;
+}
+
+.constructor_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.constructor_buttons > div {
+    gap: 1vh;
+    display: flex;
+}
+
+.constructor_buttons button {
+    width: 100%;
+    height: 7vh;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+}
+
+.constructor_buttons button:hover {
+    background-color: rgb(41, 41, 41);
+}
+
+.body_parts_grid {
+    display: grid;
+    padding: 2px;
+    border: 2px dashed rgb(0, 0, 0);
+    background-color: rgb(109, 169, 204);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 2px;
+    column-gap: 2px;
+    min-height: calc(8vw + 8px);
+}
+
+.fake_item {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgb(0, 0, 0);
+    height: 8vw;
+    width: 8vw;
+}
+
+#create_pet_form {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+#pet_name_input {
+    background-color: rgb(10, 10, 10);
+    padding: 0 20px;
+}
+
+#pet_name_input::placeholder {
+    color: rgb(165, 182, 202);
+}
+#pet_name_input:hover {
+    background-color: rgb(34, 41, 38);
+}
+#pet_name_input:focus {
+    background-color: rgb(34, 41, 38);
+}
+#pet_name_input:hover::placeholder {
+    color: rgb(184, 201, 221);
+}
+
+
+#create_pet_form input {
+    border: none;
+    outline: none;
+    height: 7vh;
+    color: white;
+    font-size: 1rem;
+    font-family: "Lucida Console";
+}
+
+#create_pet_submit {
+    background-color: #003b4d;
+    font-weight: 600;
+}
+#create_pet_submit:disabled {
+    opacity: 0.6;
+}
+#create_pet_submit:disabled:hover {
+    background-color: #003b4d;
+}
+
+#create_pet_submit:hover {
+    background-color: #0d6783;
+}

@@ -1,0 +1,58 @@
+#authorization_section {
+    background-image: url(../../../../public/assets/background_2.png);
+    background-position: bottom right;
+    padding-bottom: 30vh;
+}
+
+#authorization_section > div {
+    display: flex;
+    gap: 2vw;
+}
+
+.register_button {
+    font-size: 22px;
+    background-color: rgb(0, 41, 25);
+    padding: auto;
+    width: 35vw;
+    min-width: 200px;
+    height: 80px;
+    box-sizing: border-box;
+    font-weight: 900;
+    color: white;
+}
+
+.register_button:hover {
+    background-color: rgb(0, 95, 63);
+}
+
+.log_in_button {
+    font-size: 22px;
+    background-color: rgb(0, 41, 25);
+    padding: auto;
+    width: 35vw;
+    height: 80px;
+    min-width: 200px;
+    box-sizing: border-box;
+    font-weight: 900;
+    color: white;
+}
+
+.log_in_button:hover {
+    background-color: rgb(0, 95, 63);
+}
+
+@media screen and (max-width: 550px) {
+    #authorization_section > div {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1130px) {
+    .register_button {
+        width: 25vw;
+    }
+    .log_in_button {
+        width: 25vw;
+    }
+}
+

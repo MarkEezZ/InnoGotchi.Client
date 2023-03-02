@@ -1,0 +1,60 @@
+#log_in_section {
+    background-image: url(../../../../public/assets/background_3.png);
+    background-position: center;
+}
+
+#l_form {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    min-width: 300px;
+}
+
+#l_form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+#l_form > div > input {
+    background-color: rgb(1, 26, 6);
+    padding: 0 20px;
+}
+
+#l_form > div > input::placeholder {
+    color: rgb(159, 197, 172);
+}
+
+#l_form > div > input:hover {
+    background-color: rgb(0, 68, 43);
+}
+
+#l_form > div > input:focus {
+    background-color: rgb(0, 68, 43);
+}
+
+#l_form input {
+    border: none;
+    outline: none;
+    height: 60px;
+    color: white;
+    font-size: 1rem;
+    font-family: "Lucida Console";
+}
+
+#l_submit {
+    background-color: #005c23;
+    font-weight: 600;
+}
+#l_submit:disabled {
+    opacity: 0.7;
+}
+#l_submit:disabled:hover {
+    background-color: #005c23;
+}
+
+#l_submit:hover {
+    background-color: rgb(90, 212, 33);
+}

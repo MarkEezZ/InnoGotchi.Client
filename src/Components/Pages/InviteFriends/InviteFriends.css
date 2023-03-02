@@ -1,0 +1,79 @@
+#invite_friends {
+    background-image: url(/public/assets/invite_friends.jpg);
+    display: flex;
+    flex-direction: column;
+}
+
+#invite_friends > div {
+    width: 100%;
+    height: 100%;
+    gap: 2vw;
+    display: flex;
+    flex-grow: 1;
+}
+
+.search_guest_form {
+    display: flex;
+    gap: 1vh;
+}
+
+.search_guest_form > input {
+    height: 6vh;
+    border: none;
+}
+
+#find_users_input {
+    color: white;
+    font-size: 0.9rem;
+    background-color: rgb(0, 29, 18);
+    flex-grow: 1;
+    padding: 0 2vh;
+    font-family: 'Lucida Console';
+    outline: none;
+}
+#find_users_input::placeholder {
+    color: rgb(151, 212, 168);
+}
+#find_users_input:hover, #find_users_input:focus {
+    background-color: rgb(3, 65, 42);
+}
+
+#find_users_button {
+    width: 6vh;
+    border: 2px dashed white;
+    background-color: black;
+    background-image: url(/public/assets/icons/search_icon.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+#find_users_button:hover {
+    border-width: 3px;
+    background-color: rgb(37, 37, 37);
+    background-size: 55%;
+}
+#find_users_button:focus {
+    border-width: 3px;
+    border-style: solid;
+}
+
+.guests_half {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.guests_half > h2 {
+    font-size: 1.4rem;
+}   
+
+.guests_wrapper {
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 2px dashed black;
+    height: 100%;
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}

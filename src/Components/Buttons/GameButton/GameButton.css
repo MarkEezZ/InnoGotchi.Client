@@ -1,0 +1,91 @@
+.game_button {
+    background-color: rgb(235, 235, 235);
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: invert(1);
+    color: black;
+    font-weight: bold;
+    width: 9vh;
+    height: 9vh;
+    position: fixed;
+    font-size: 1rem;
+    border-radius: 10vh;
+    line-height: 9vh;
+    z-index: 2;
+}
+
+.game_button:hover {
+    background-color: rgb(235, 235, 235);
+    border-style: solid;
+    font-size: 0.95rem;
+    background-size: 35%;
+}
+
+/* ///////// */
+
+.statistics_button {
+    background-image: url(./../../../../public/assets/icons/statistics_icon.png);
+    border: 2px rgb(127, 23, 224) dashed;
+    top: 2vh;
+    right: 2vh;
+}
+.farm_review_button {
+    background-image: url(./../../../../public/assets/icons/farm_review_icon.jpg);
+    border: 2px rgb(127, 23, 224) dashed;
+    top: 13vh;
+    right: 2vh;
+}
+.view_pet_button {
+    background-image: url(./../../../../public/assets/icons/view_pet_icon.png);
+    border: 2px rgb(127, 23, 224) dashed;
+    top: 46vh;
+    right: 2vh;
+}
+.game_button:disabled {
+    opacity: 0.6;
+}
+.game_button:disabled:hover {
+    border-style: dashed;
+    background-color: rgb(235, 235, 235);
+    background-size: 40%;
+}
+.invite_friends_button {
+    background-image: url(./../../../../public/assets/icons/invite_friends_icon.png);
+    border: 2px rgb(127, 23, 224) dashed;
+    top: 35vh;
+    right: 2vh;
+}
+.settings_button {
+    background-image: url(./../../../../public/assets/icons/settings_icon.png);
+    border: 2px rgb(127, 23, 224) dashed;
+    top: 24vh;
+    right: 2vh;
+}
+.exit_button {
+    border: 2px rgb(0, 0, 0) dashed;
+    bottom: 2vh;
+    right: 2vh;
+}
+
+.constructor_button {
+    border: 2px rgb(22, 22, 22) dashed;
+    background-color: rgb(125, 255, 50);
+    background-image: url(../../../../public/assets/icons/create_pet_icon.png);
+    background-size: 45%;
+    filter: invert(0);
+    top: 57vh;
+    right: 2vh;
+}
+
+.constructor_button:hover {
+    background-color: rgb(125, 255, 50);
+    background-size: 40%;
+    border-style: solid;
+    font-size: 0.95rem;
+}
+
+.constructor_button:disabled:hover {
+    background-color: rgb(125, 255, 50);
+    background-size: 45%;
+}

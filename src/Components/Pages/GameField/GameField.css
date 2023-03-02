@@ -1,0 +1,36 @@
+#game_field {
+    width: 2272px;
+    height: 1728px;
+    background-image: url(./../../../../public/assets/floor.png);
+    background-size: cover;
+    position: relative;
+}
+
+#rect {
+    background-color: red;
+    width: 50px;
+    height: 60px;
+    position: absolute;
+}
+
+.pet_wrapper {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    transform: translate(-50%, -50%);
+}
+
+.pet_regular_data_gameField {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    gap: 1vh;
+    position: fixed;
+    z-index: 2;
+    bottom: 2vh;
+    left: 2vh;
+}
+
+.pet_regular_data_gameField > h2 {
+    font-size: 1.2rem;
+}

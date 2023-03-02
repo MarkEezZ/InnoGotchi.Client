@@ -1,0 +1,9 @@
+#farm_review {
+    justify-content: flex-start;
+    background-image: url(../../../../public/assets/floor.png);
+    gap: 3vh;
+}
+
+#pet_list_section {
+    width: auto;
+}
