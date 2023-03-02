@@ -1,0 +1,177 @@
+#settings {
+    background-image: url(/public/assets/floor.png);
+}
+
+#settings input {
+    padding: 0 2vh;
+    border: none;
+    font-family: 'Lucida Console';
+    color: white;
+}
+#settings input::placeholder {
+    color: rgb(138, 196, 153);
+}
+
+.user_info h3 {
+    font-size: 1rem;
+}
+
+.user_info {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 2vh;
+}
+
+.user_info > div:not(.guest_avatar_wrapper) {
+    display: flex;
+    gap: 2vw;
+    width: 100%;
+}
+
+.user_info > div:not(.guest_avatar_wrapper) > * {
+    height: 6vh;
+    line-height: 6vh;
+}
+
+.user_info_avatar:hover > .avatar_blackout {
+    filter: invert(1);
+    background-color: rgba(255, 255, 255, 0.4);
+    background-image: url(/public/assets/icons/settings_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+}
+
+.set_default_ava {
+    background-color: rgb(56, 69, 97);
+    color: white;
+    font-size: 0.9rem;
+    padding: 0 2vh;
+    font-weight: 600;
+}
+.set_default_ava:hover {
+    background-color: rgb(109, 133, 184);
+}
+
+.avatar_blackout {
+    width: 8vh;
+    height: 8vh;
+    border-radius: 8vh;
+}
+
+.guest_avatar_wrapper {
+    display: flex;
+    gap: 2vh;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+
+.button_div {
+    width: 250px;
+    display: flex;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_div > * {
+    font-weight: 600;
+    color: white;
+}
+
+.button_div > h3 {
+    color: black;
+}
+
+.radio_button {
+    padding: 5px;
+    border-radius: 4vh;
+    background-color: rgb(0, 0, 0);
+    width: 60px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.radio_button_circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.radio_button_checkbox {
+    display: none;
+    margin-left: 0px;
+}
+
+.radio_button_checkbox ~ label {
+    background-color: rgb(231, 12, 41);
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+.radio_button_checkbox:checked ~ label {
+    background-color: rgb(92, 241, 55);
+    margin-left: 0px;
+    transition: 0.3s;
+}
+
+.change_password_button {
+    text-align: center;
+    color: white;
+    width: 100%;
+    display: block;
+    background-color: rgb(56, 69, 97);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.change_password_button:hover {
+    background-color: rgb(123, 150, 207);
+}
+
+.max_width_input {
+    width: 100%;
+}
+
+.user_info input:not(.age_input) {
+    flex-grow: 1;
+    outline: none;
+}
+.age_input {
+    width: 10vh;
+    outline: none;
+}
+
+.info_text_input {
+    background-color: black;
+}
+
+.info_text_input:hover {
+    background-color: rgb(48, 48, 48);
+}
+
+.info_text_input:focus {
+    background-color: rgb(48, 48, 48);
+}
+
+#settings #info_submit_button {
+    background-color: rgb(0, 105, 74);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#settings #info_submit_button:hover {
+    background-color: rgb(0, 187, 131);
+}
+
+#settings #info_submit_button:disabled {
+    opacity: 0.7;
+}
+#settings #info_submit_button:disabled:hover {
+    background-color: rgb(0, 105, 74);
+}

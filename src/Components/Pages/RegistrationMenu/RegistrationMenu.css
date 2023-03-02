@@ -1,0 +1,60 @@
+#registration_section {
+    background-image: url(../../../../public/assets/background_3.png);
+    background-position: -300px;
+}
+
+#r_form {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    min-width: 300px;
+}
+
+#r_form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+#r_form > div > input {
+    background-color: rgb(1, 26, 6);
+    padding: 0 20px;
+}
+
+#r_form > div > input::placeholder {
+    color: rgb(159, 197, 172);
+}
+
+#r_form > div > input:hover {
+    background-color: rgb(0, 68, 43);
+}
+
+#r_form > div > input:focus {
+    background-color: rgb(0, 68, 43);
+}
+
+#r_form input {
+    border: none;
+    outline: none;
+    height: 60px;
+    color: white;
+    font-size: 1rem;
+    font-family: "Lucida Console";
+}
+
+#r_submit {
+    background-color: #005c23;
+    font-weight: 600;
+}
+#r_submit:disabled {
+    opacity: 0.7;
+}
+#r_submit:disabled:hover {
+    background-color: #005c23;
+}
+
+#r_submit:hover {
+    background-color: rgb(90, 212, 33);
+}

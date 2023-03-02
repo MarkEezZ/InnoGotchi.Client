@@ -1,0 +1,79 @@
+.pet_record_button {
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: space-around;
+    padding: 2vh;
+}
+
+.pet_record_button:hover {
+    background-color: rgb(236, 255, 153);
+}
+
+.pet_scope {
+    display: flex;
+    gap: 1vh;
+    justify-content: space-between;
+}
+
+.pet_regular_data {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.pet_scope h2 {
+    font-size: 1rem;
+    margin-right: 100%;
+}
+
+.pet_regular_stats {
+    display: flex;
+    gap: 3vw;
+}
+
+.stats_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.stats_text > * {
+    line-height: 4vh;
+    text-align: left;
+    margin-left: 2vw;
+    font-size: 1rem;
+}
+
+.pet_view_panel_st {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px dashed rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vh;
+    height: 15vh;
+    width: 15vh;
+}
+
+.pet_regular_data > .pet_view_panel_st .pet_body {
+    width: 100%;
+    height: 100%;
+}
+
+.pet_stats .stat {
+    width: auto;
+    height: auto;
+    flex-grow: 1;
+}
+.pet_stats .fill_stat_button {
+    width: 4vh;
+    height: 4vh;
+}
+.pet_stats .stats_bar {
+    justify-content: space-between;
+    height: 100%;
+}
+.pet_stats .stats_bar > div {
+    width: 35vw;
+}

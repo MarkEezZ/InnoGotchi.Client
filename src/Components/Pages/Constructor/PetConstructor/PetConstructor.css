@@ -1,0 +1,40 @@
+.pet_body {
+    position: relative;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pet_eyes {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 38%;
+    height: 28%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pet_nose {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12%;
+    height: 12%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pet_mouth {
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 35%;
+    height: 20%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
