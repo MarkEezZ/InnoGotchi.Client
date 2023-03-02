@@ -2,8 +2,6 @@
 
 Client side of the project.
 
----
-
 ## Running
 
 #### 1. Backend installation
@@ -25,9 +23,9 @@ Client side of the project.
 * Go to the file __appsettings.json__, set the parameters of the string just like in the string you have saved earlier. 
 __Don't change the database name. The database with name "InnoGotchi" will be created on the server after using migrations.__
 * Use migrations to create database:
-    1. Find a View tab in the menu above.
-    2. Open a Package Manager Console ( View > Other Windows > Package Manager Console )
-    3. Run the commands below:
+    * Find a View tab in the menu above.
+    * Open a Package Manager Console ( View > Other Windows > Package Manager Console )
+    * Run the commands below:
 ```
     Enable-Migrations
     Update-Database
