@@ -7,19 +7,15 @@ Client side of the project.
 #### 1. Backend installation
 
 * Install MSSQL Server according to the __Metanit__ guide:
-
     [Go to the guide.](https://metanit.com/sql/sqlserver/1.2.php)
-
 * Save the connection string to the server, which will be avaliable after installation.
-
 * Open a folder where you want to install the backend.
 * Git Bash this folder (You can use any other terminal).
 * Run the command below:
 ```
     git clone https://github.com/MarkEezZ/InnoGotchi.API.git
 ```
-
-* Open this folder using Visual Studio 2022
+* Open this folder using Visual Studio 2022.
 * Go to the file __appsettings.json__, set the parameters of the string just like in the string you have saved earlier. 
 __Don't change the database name. The database with name "InnoGotchi" will be created on the server after using migrations.__
 * Use migrations to create database:
